@@ -13,7 +13,7 @@ public class App
     {
     	ApplicationContext context = new ClassPathXmlApplicationContext("Spring-Module.xml");
     	 
-        HelloWorld obj = (HelloWorld) context.getBean("hello007Bean");
+        HelloWorld obj = (HelloWorld) context.getBean("hello0077778Bean");
         obj.printHello();
         
     }
